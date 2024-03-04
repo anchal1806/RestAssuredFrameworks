@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredFrameworkSuite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"></listener>
+    </listeners>
+    <test name="UserTest">
+        <classes>
+            <class name="api.test.UserTest"/>
+            <!-- Add more classes here if needed -->
+        </classes>
+    </test>
+</suite>
